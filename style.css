@@ -32,6 +32,27 @@ header div {
   margin-left: 40px
 }
 
+#talk {
+  margin-right: 500px;
+}
+
+.body-of-site {
+  padding:10;
+  display: flex;
+}
+
+.middle-of-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-title {
+  vertical-align: middle;
+  font-style: italic;
+  margin-left:40px;
+ 
+}
+
 .useritems {
   list-style-type: none;
   padding: 0;
@@ -46,4 +67,17 @@ header div {
   list-style-type: none;
   padding: 0;
   margin-top: 20px;
+  margin-right: 100px;
 }
+
+.body-content p {
+  max-width: 550px;
+  margin-left: 40px;
+}
+
+.tool-bar li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
