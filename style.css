@@ -1,0 +1,49 @@
+
+body {
+  font-family: sans-serif;
+}
+header div {
+  display: inline-block;
+  vertical-align:middle;
+  margin-right: 50px;
+}
+
+#N64PEDIA {
+  margin-left: 20px;
+}
+
+#inputBar {
+  vertical-align: middle;
+  padding: 0;
+  height: 30px;
+  width: 500px;
+}
+
+#submitButton {
+  background-color: white;
+  height: 35px;
+  width:  70px;
+  margin-right: 400px;
+  box-shadow: none;
+  
+}
+
+#content-title {
+  margin-left: 40px
+}
+
+.useritems {
+  list-style-type: none;
+  padding: 0;
+}
+
+.useritems li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pinned-container li {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
