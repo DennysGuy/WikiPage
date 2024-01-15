@@ -36,6 +36,14 @@ header div {
   margin-right: 500px;
 }
 
+#wr-gameplay {
+  width: 240px;
+  height: 150px;
+}
+
+#first-paragraph-gp {
+  margin: -15em 0 0.5em 19em;
+}
 
 .body-of-site {
   padding:10;
@@ -83,7 +91,6 @@ header div {
   margin-top:140px;
   height:500px;
 
-
 }
 
 .body-content h2 {
@@ -97,13 +104,25 @@ header div {
   margin-right: 10px;
 }
 
+.gameplay-figure{
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #f8f9fa;
+  color: black;
+  padding:0.3em;
+  line-height: 1.5em;
+  max-width: 240px;
+  font-size: 70%;
+  text-align: left;
+
+}
 
 .infobox {
   border: 1px solid #a2a9b1;
   border-spacing: 3px;
   background-color: #f8f9fa;
   color: black;
-  margin: 0.5em 0 0.5em -15em;
+  margin: -1em 0 0.5em -14em;
   padding: 0.2em;
   float: right;
   clear: right;
