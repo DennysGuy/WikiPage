@@ -21,7 +21,7 @@ header div {
 
 #submitButton {
   background-color: white;
-  height: 35px;
+  height: 33px;
   width:  70px;
   margin-right: 400px;
   box-shadow: none;
@@ -36,9 +36,11 @@ header div {
   margin-right: 500px;
 }
 
+
 .body-of-site {
   padding:10;
   display: flex;
+  flex-direction: row;
 }
 
 .middle-of-body {
@@ -72,6 +74,20 @@ header div {
 
 .body-content p {
   max-width: 550px;
+ 
+  margin-left: 40px;
+}
+
+.right-side {
+
+  margin-top:140px;
+  height:500px;
+
+
+}
+
+.body-content h2 {
+  margin-top: 40px;
   margin-left: 40px;
 }
 
@@ -81,3 +97,23 @@ header div {
   margin-right: 10px;
 }
 
+
+.infobox {
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #f8f9fa;
+  color: black;
+  margin: 0.5em 0 0.5em -15em;
+  padding: 0.2em;
+  float: right;
+  clear: right;
+  line-height: 1.5em;
+  width:22em;
+  font-size: 88%;
+
+  
+}
+
+#pic-info {
+  text-align: center;
+}
