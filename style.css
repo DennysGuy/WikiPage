@@ -41,9 +41,21 @@ header div {
   height: 150px;
 }
 
-#first-paragraph-gp {
-  margin: -15em 0 0.5em 19em;
+
+.gp-p1-container {
+  display: flex;
+  flex-direction: row;
+  margin-right:-100px
 }
+
+.gameplay-figure {
+  margin: 4;
+}
+
+.first-paragraph-gp {
+  margin-right: -4;
+}
+
 
 .body-of-site {
   padding:10;
@@ -81,7 +93,6 @@ header div {
 }
 
 .body-content p {
-  max-width: 550px;
  
   margin-left: 40px;
 }
@@ -131,6 +142,14 @@ header div {
   font-size: 88%;
 
   
+}
+
+.first-paragraph-top, .second-paragraph-top {
+  max-width: 550px;
+}
+
+.first-paragraph-gp, .second-paragraph-gp, .third-paragraph-gp {
+  max-width:750px;
 }
 
 #pic-info {
