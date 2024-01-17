@@ -48,12 +48,14 @@ header div {
   margin-right:-100px
 }
 
+
+
 .gameplay-figure {
-  margin: 4;
+  margin: 4px;
 }
 
 .first-paragraph-gp {
-  margin-right: -4;
+  margin-left: 0px
 }
 
 
@@ -117,10 +119,9 @@ header div {
 
 .gameplay-figure{
   border: 1px solid #a2a9b1;
-  border-spacing: 3px;
+  border-spacing: 0px;
   background-color: #f8f9fa;
   color: black;
-  padding:0.3em;
   line-height: 1.5em;
   max-width: 240px;
   font-size: 70%;
@@ -150,6 +151,10 @@ header div {
 
 .first-paragraph-gp, .second-paragraph-gp, .third-paragraph-gp {
   max-width:750px;
+}
+
+.development-and-release p {
+  max-width: 750px;
 }
 
 #pic-info {
